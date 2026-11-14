@@ -105,20 +105,4 @@ The maternal-health workflow is an active MVP. The health-worker and supervisor
 experiences are implemented; broader platform modules and production-readiness
 work remain outside this public case study.
 
-## Résumé summary
-
-**RANOGO — Maternal Health Digital Platform**
-
-Designed and developed a secure, role-based healthcare case-management MVP
-using Next.js, TypeScript, PostgreSQL, and Supabase. The platform combines
-consent-aware patient records, antenatal visit tracking, operational alerts,
-district oversight, and audited reporting.
-
-## Source access
-
-The production source repository is private. A guided technical walkthrough
-can be provided during an interview when appropriate.
-
----
-
 Portfolio project by [victoued](https://github.com/victoued).
