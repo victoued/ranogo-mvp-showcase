@@ -8,7 +8,7 @@ The people and organizations involved in a patient's care sometimes work with se
 
 ## Our objective
 
-RANOGO aims to connect patients, care teams, laboratories, pharmacies, and insurers so each authorized participant can provide or see the information relevant to their role. A laboratory could make a result available to an authorized clinician, while an insurer could receive the documents it needs to verify coverage. For patients, the goal is simpler follow-up, including when they change clinicians or facilities.
+RANOGO aims to connect patients, care teams, laboratories, pharmacies, and insurers so each authorized participant can provide or see the information relevant to their role. This requires interoperability, meaning existing systems can exchange useful information among authorized participants. A laboratory could make a result available to an authorized clinician, while an insurer could receive the documents it needs to verify coverage. For patients, the goal is simpler follow-up, including when they change clinicians or facilities.
 
 ## Our vision
 
@@ -28,7 +28,7 @@ These milestones outline planned capabilities.
 
 1. **Maternal and child health MVP.** The first demonstrated workflow covers registration with consent and prenatal follow-up. The demonstration with synthetic data is targeted for December 2026 and a limited pilot for January 2027, subject to readiness and required approvals.
 2. **Longitudinal health record.** Give people a health history at every age, with relevant visits and results available across providers to authorized care teams.
-3. **Health coverage and social benefits.** Help patients verify and track health coverage and eligible families access and track public benefits, subject to program rules.
+3. **Health coverage and social benefits.** Help patients verify and track health coverage and eligible families access and track public benefits. This includes tracking related reimbursements or payments under the applicable contracts or program rules.
 4. **Education and other essential services.** Extend access to selected education-related and other essential services as local needs and programs allow.
 
 ## User journeys
