@@ -24,12 +24,12 @@ The MVP focuses on maternal and child health. Its first demonstration scenario i
 
 ## Roadmap
 
-These are planning targets and broad directions.
+These milestones outline planned capabilities.
 
-1. **Maternal and child health MVP.** Target a synthetic-data demonstration in December 2026 and a limited pilot in January 2027, subject to readiness and required approvals.
-2. **Continuity of care.** After evaluating the initial pilot, extend the care pathway to support follow-up across providers.
-3. **Health insurance and social protection.** As early care workflows are validated and partners are ready, explore connections with health insurers and social protection programs.
-4. **Broader access to essential services.** Once the approach has been proven in the pilot settings, expand to more partners and services as local needs and readiness allow.
+1. **Maternal and child health MVP.** The first demonstrated workflow covers registration with consent and prenatal follow-up. The demonstration with synthetic data is targeted for December 2026 and a limited pilot for January 2027, subject to readiness and required approvals.
+2. **Longitudinal health record.** Give people a health history at every age, with relevant visits and results available across providers to authorized care teams.
+3. **Health coverage and social benefits.** Help patients verify and track health coverage and eligible families access and track public benefits, subject to program rules.
+4. **Education and other essential services.** Extend access to selected education-related and other essential services as local needs and programs allow.
 
 ## User journeys
 
