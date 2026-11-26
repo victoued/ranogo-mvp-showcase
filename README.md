@@ -20,7 +20,7 @@ Protect patient data and access rights, account for differences in internet and 
 
 ## The demonstration MVP
 
-This public showcase uses synthetic data to demonstrate patient registration with consent, antenatal visit recording, and district-level supervision. It is intended for demonstration with synthetic data only.
+The MVP focuses on maternal and child health. Its first demonstration scenario is antenatal care, using synthetic data to show patient registration with consent, antenatal visit recording, and district-level supervision.
 
 ## User journeys
 
