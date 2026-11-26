@@ -1,24 +1,29 @@
 # RANOGO
 
-### Digital infrastructure for community and maternal healthcare
+### A digital platform for continuity of care and access to social protection in Africa
 
-RANOGO is a maternal-health case-management prototype designed for health
-workers and district supervisors. It demonstrates how consent-aware digital
-records, operational alerts, and district reporting can support continuity of
-care across resource-constrained health facilities.
+RANOGO aims to help people keep track of their health history over time, share relevant information with authorized care teams, and follow the health and social protection services they rely on. The platform starts with maternal health, where timely follow-up and coordination across facilities matter.
 
-> This public repository is a portfolio case study. The application source,
-> database policies, internal product strategy, infrastructure configuration,
-> and Git history remain private.
+## What this showcase demonstrates
 
-## The problem
+This public repository is a portfolio case study of RANOGO's first use case. The maternal-health prototype uses synthetic data to demonstrate consent-based registration, antenatal visit recording, and district-level supervision.
+
+## Long-term platform vision
+
+- **Continuity of care.** Extend the health record to people of all ages and support secure sharing of relevant visit notes, lab results, and care summaries across authorized providers.
+- **Health coverage.** Help care facilities, pharmacies, and insurers verify coverage and track care financed through health insurance.
+- **Social protection.** Help eligible public programs use verified events, such as a birth, to assess eligibility and track benefits delivered by partner organizations.
+
+These are proposed directions for the platform. The current showcase covers the maternal-health workflow below.
+
+## The maternal-health problem
 
 Frontline health teams often work across disconnected facilities with limited
 visibility into patient follow-up. Supervisors need a reliable way to identify
 overdue care, understand district workload, and support health workers without
 weakening patient privacy.
 
-## The prototype
+## What the prototype covers
 
 RANOGO brings the core workflow into one role-aware web application:
 
@@ -101,8 +106,6 @@ clinical-safety review.
 
 ## Current status
 
-The maternal-health workflow is an active MVP. The health-worker and supervisor
-experiences are implemented; broader platform modules and production-readiness
-work remain outside this public case study.
+The maternal-health MVP includes health-worker and district-supervisor workflows for demonstration with synthetic data. The broader platform capabilities are future work.
 
 Portfolio project by [victoued](https://github.com/victoued).
