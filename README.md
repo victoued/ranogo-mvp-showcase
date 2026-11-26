@@ -16,6 +16,8 @@ RANOGO aims to connect patients, care teams, laboratories, pharmacies, and insur
 
 Prenatal care is the starting point. Over time, RANOGO aims to support continuity of care at every age and help people access services such as social protection and education where relevant programs are available. **Benin and Burkina Faso** are the first planned pilot countries.
 
+Over time, reliable health information could support clinically evaluated AI tools that help care teams review patient records more quickly.
+
 ## What to get right
 
 Protect patient data and access rights, account for differences in internet and device access, and work with existing local partners.
