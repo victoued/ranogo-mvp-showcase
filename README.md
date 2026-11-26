@@ -1,34 +1,39 @@
 # RANOGO
 
-### Digital infrastructure for community and maternal healthcare
-
-RANOGO is a maternal-health case-management prototype designed for health
-workers and district supervisors. It demonstrates how consent-aware digital
-records, operational alerts, and district reporting can support continuity of
-care across resource-constrained health facilities.
-
-> This public repository is a portfolio case study. The application source,
-> database policies, internal product strategy, infrastructure configuration,
-> and Git history remain private.
+### Digital infrastructure for access to essential services in Africa
 
 ## The problem
 
-Frontline health teams often work across disconnected facilities with limited
-visibility into patient follow-up. Supervisors need a reliable way to identify
-overdue care, understand district workload, and support health workers without
-weakening patient privacy.
+The people and organizations involved in a patient's care sometimes work with separate records and systems. The patient then has to connect the dots between the clinician, laboratory, pharmacy, and insurer. When parts of the record are on paper, patients may have to carry their reports while clinicians search for documents kept at their own facilities. A missing result can delay a decision or treatment, require another test or trip, and add costs for families. Making decisions with an incomplete history can also increase the risk of avoidable errors.
 
-## The prototype
+## Our objective
 
-RANOGO brings the core workflow into one role-aware web application:
+RANOGO aims to make care simpler, better informed, and safer for patients. By helping authorized care teams get the information they need when they need it, the platform aims to reduce avoidable errors linked to missing information.
 
-- Consent-gated patient registration and profile management
-- Antenatal visit recording and longitudinal visit history
-- Due-date, high-risk, and missed-visit notifications
-- Facility-scoped workflows for health workers
-- District dashboards and patient drill-down for supervisors
-- Date-bounded CSV reporting with export auditing
-- Connectivity-aware behavior that prevents unsafe writes while offline
+RANOGO aims to connect patients, care teams, laboratories, pharmacies, and insurers so each authorized participant can provide or see information relevant to their role. Interoperability lets existing systems exchange that information. A service-linked identity helps match it to the right person and record. A laboratory could make a result available to an authorized clinician, while an insurer could receive the documents it needs to verify coverage.
+
+## Our vision
+
+Prenatal care is the starting point. Over time, RANOGO aims to support continuity of care at every age and help people access services such as social protection and education where relevant programs are available. **Benin and Burkina Faso** are the first planned pilot countries.
+
+Over time, reliable health information could support clinically evaluated AI tools that help care teams review patient records more quickly.
+
+## What to get right
+
+Protect patient data and access rights, account for differences in internet and device access, and work with existing local partners.
+
+## The demonstration MVP
+
+The MVP focuses on maternal and child health. Its first demonstration scenario is antenatal care, using synthetic data to show patient registration with consent, antenatal visit recording, and district-level supervision.
+
+## Roadmap
+
+These milestones outline planned capabilities.
+
+1. **Maternal and child health MVP.** The first demonstrated workflow covers registration with consent and prenatal follow-up. The demonstration with synthetic data is targeted for December 2026 and a limited pilot for January 2027, subject to readiness and required approvals.
+2. **Longitudinal health record.** Give people a health history at every age, with relevant visits and results available across providers to authorized care teams.
+3. **Health coverage and social benefits.** Help patients verify and track health coverage and eligible families access and track public benefits. This includes tracking payments and reimbursements for insured care, as well as public benefit payments, under the applicable contracts or program rules.
+4. **Education and other essential services.** Extend access to selected education-related and other essential services as local needs and programs allow.
 
 ## User journeys
 
@@ -45,64 +50,5 @@ RANOGO brings the core workflow into one role-aware web application:
 2. Review patient, visit, and health-worker activity.
 3. Investigate high-risk or overdue cases.
 4. Export a bounded report for an authorized reporting period.
-
-## Architecture overview
-
-```mermaid
-flowchart LR
-    HW[Health worker] --> WEB[Next.js application]
-    DS[District supervisor] --> WEB
-    WEB --> AUTH[Authentication]
-    WEB --> SERVER[Server actions and report API]
-    SERVER --> DB[(PostgreSQL)]
-    AUTH --> ACCESS[Role and location context]
-    ACCESS --> DB
-    DB --> RLS[Row-level access controls]
-```
-
-The application uses defense in depth: the interface adapts to the user's role,
-server-side operations validate every request, and the database independently
-enforces record visibility.
-
-## Technology
-
-- Next.js and React
-- TypeScript
-- Supabase Auth and PostgreSQL
-- Tailwind CSS and a reusable component system
-- Zod validation
-- Vitest and Testing Library
-
-## Engineering highlights
-
-- **Consent by design:** patient access and clinical actions depend on current
-  consent, rather than treating consent as presentation-only metadata.
-- **Least-privilege access:** health workers are scoped to their facility while
-  supervisors are scoped to their assigned district.
-- **Operational safety:** report parameters, result sizes, and exports are
-  bounded and validated.
-- **Notification privacy:** stored alerts follow current patient-access rules.
-- **Testable domain logic:** risk classification, reporting boundaries, dates,
-  validation, notification behavior, and dashboard summaries are covered by
-  automated tests.
-- **Honest offline behavior:** the interface reports connectivity loss and
-  blocks writes rather than implying that unsaved clinical data was queued.
-
-## Security and privacy
-
-This showcase intentionally excludes implementation details that would expose
-security policy internals or proprietary product strategy. The private
-codebase includes layered authorization, row-level data controls, input
-validation, export safeguards, and audit records.
-
-The prototype must not be used with real patient data or as a production
-clinical system without independent security, privacy, regulatory, and
-clinical-safety review.
-
-## Current status
-
-The maternal-health workflow is an active MVP. The health-worker and supervisor
-experiences are implemented; broader platform modules and production-readiness
-work remain outside this public case study.
 
 Portfolio project by [victoued](https://github.com/victoued).
