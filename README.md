@@ -22,6 +22,15 @@ Protect patient data and access rights, account for differences in internet and 
 
 The MVP focuses on maternal and child health. Its first demonstration scenario is antenatal care, using synthetic data to show patient registration with consent, antenatal visit recording, and district-level supervision.
 
+## Roadmap
+
+These are planning targets and broad directions.
+
+1. **Maternal and child health MVP.** Target a synthetic-data demonstration in December 2026 and a limited pilot in January 2027, subject to readiness and required approvals.
+2. **Continuity of care.** Extend the initial care pathway to support follow-up across providers.
+3. **Health insurance and social protection.** Explore connections with health insurers and social protection programs.
+4. **Broader access to essential services.** Expand to more partners and services as local needs and readiness allow.
+
 ## User journeys
 
 ### Health worker
