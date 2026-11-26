@@ -27,9 +27,9 @@ The MVP focuses on maternal and child health. Its first demonstration scenario i
 These are planning targets and broad directions.
 
 1. **Maternal and child health MVP.** Target a synthetic-data demonstration in December 2026 and a limited pilot in January 2027, subject to readiness and required approvals.
-2. **Continuity of care.** Extend the initial care pathway to support follow-up across providers.
-3. **Health insurance and social protection.** Explore connections with health insurers and social protection programs.
-4. **Broader access to essential services.** Expand to more partners and services as local needs and readiness allow.
+2. **Continuity of care.** After evaluating the initial pilot, extend the care pathway to support follow-up across providers.
+3. **Health insurance and social protection.** As early care workflows are validated and partners are ready, explore connections with health insurers and social protection programs.
+4. **Broader access to essential services.** Once the approach has been proven in the pilot settings, expand to more partners and services as local needs and readiness allow.
 
 ## User journeys
 
