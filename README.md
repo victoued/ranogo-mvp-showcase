@@ -4,11 +4,13 @@
 
 ## The problem
 
-The people and organizations involved in a patient's care sometimes work with separate records and systems. The patient then has to connect the dots between the clinician, laboratory, pharmacy, and insurer. When parts of the record are on paper, patients may have to carry their reports while clinicians search for documents kept at their own facilities. A missing result or delayed information can interrupt follow-up.
+The people and organizations involved in a patient's care sometimes work with separate records and systems. The patient then has to connect the dots between the clinician, laboratory, pharmacy, and insurer. When parts of the record are on paper, patients may have to carry their reports while clinicians search for documents kept at their own facilities. A missing result can delay a decision or treatment, require another test or trip, and add costs for families. Making decisions with an incomplete history can also increase the risk of avoidable errors.
 
 ## Our objective
 
-RANOGO aims to connect patients, care teams, laboratories, pharmacies, and insurers so each authorized participant can provide or see the information relevant to their role. This requires interoperability, meaning existing systems can exchange useful information among authorized participants. A service-linked identity helps match information to the right person and record. A laboratory could make a result available to an authorized clinician, while an insurer could receive the documents it needs to verify coverage. For patients, the goal is simpler follow-up, including when they change clinicians or facilities.
+RANOGO aims to make care simpler, better informed, and safer for patients. By helping authorized care teams get the information they need when they need it, the platform aims to reduce avoidable errors linked to missing information.
+
+RANOGO aims to connect patients, care teams, laboratories, pharmacies, and insurers so each authorized participant can provide or see information relevant to their role. Interoperability lets existing systems exchange that information. A service-linked identity helps match it to the right person and record. A laboratory could make a result available to an authorized clinician, while an insurer could receive the documents it needs to verify coverage.
 
 ## Our vision
 
