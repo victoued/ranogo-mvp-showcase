@@ -1,20 +1,34 @@
 # RANOGO
 
-### A digital platform for continuity of care and access to social protection in Africa
+### Digital infrastructure for access to essential services in Africa
 
-RANOGO aims to help people keep track of their health history over time, share relevant information with authorized care teams, and follow the health and social protection services they rely on. The platform starts with maternal health, where timely follow-up and coordination across facilities matter.
+RANOGO envisions a platform that helps people continue their care across
+facilities and access the health coverage and social benefits they qualify for.
+It would give service providers and public institutions a shared way to exchange
+relevant information and track the steps that require coordination.
 
-## What this showcase demonstrates
+## Platform vision
 
-This public repository is a portfolio case study of RANOGO's first use case. The maternal-health prototype uses synthetic data to demonstrate consent-based registration, antenatal visit recording, and district-level supervision.
+- **Continuity of care.** A health record could follow a person throughout life.
+  Clinics, hospitals, and laboratories could contribute information that authorized
+  care teams need, such as visit notes, lab results, and care summaries.
+- **Health insurance.** Facilities, pharmacies, and insurers could coordinate
+  coverage verification, medication dispensing, and follow-up on covered care.
+- **Social protection.** A birth confirmed by the civil registry could trigger an
+  eligibility review for a public benefit. If approved, RANOGO could help track
+  the payment made by a partner organization.
 
-## Long-term platform vision
+Identity helps connect each record to the right person. Public authorities remain
+the official source for identity and civil registration. Shared capabilities such
+as consent, secure information exchange, case tracking, and notifications could
+also support other public services over time.
 
-- **Continuity of care.** Extend the health record to people of all ages and support secure sharing of relevant visit notes, lab results, and care summaries across authorized providers.
-- **Health coverage.** Help care facilities, pharmacies, and insurers verify coverage and track care financed through health insurance.
-- **Social protection.** Help eligible public programs use verified events, such as a birth, to assess eligibility and track benefits delivered by partner organizations.
+## How the MVP fits
 
-These are proposed directions for the platform. The current showcase covers the maternal-health workflow below.
+This public repository is a portfolio case study of the maternal-health MVP.
+Using synthetic data, it illustrates how a health worker registers a patient with
+consent and records an antenatal visit, and how a supervisor follows activity in
+their district. It demonstrates a first application of the platform vision.
 
 ## The maternal-health problem
 
