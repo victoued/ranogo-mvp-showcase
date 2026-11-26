@@ -2,10 +2,24 @@
 
 ### Digital infrastructure for access to essential services in Africa
 
-RANOGO envisions a platform that helps people continue their care across
-facilities and access the health coverage and social benefits they qualify for.
-It would give service providers and public institutions a shared way to exchange
-relevant information and track the steps that require coordination.
+## The problem RANOGO addresses
+
+A field observation that helped shape RANOGO was the burden of carrying paper
+medical records between providers. When someone changes clinics, their new care
+team may have no direct access to previous test results or visit notes. The
+patient may have to carry those documents and reconstruct their history.
+
+Access to public benefits poses a similar coordination problem. A person may
+have to pass documents between the office that confirms a life event, the
+program that determines eligibility, and the organization that pays the benefit.
+The processes vary by country and service.
+
+## Objective
+
+RANOGO aims to make it easier for people to continue their care across facilities
+and access the health coverage and social benefits they qualify for. It would
+give providers and public institutions a shared way to exchange relevant
+information and track the steps that require coordination.
 
 ## Platform vision
 
@@ -19,9 +33,27 @@ relevant information and track the steps that require coordination.
   the payment made by a partner organization.
 
 Identity helps connect each record to the right person. Public authorities remain
-the official source for identity and civil registration. Shared capabilities such
-as consent, secure information exchange, case tracking, and notifications could
-also support other public services over time.
+the official source for identity and civil registration. The same capabilities could support other public services over time.
+
+## Platform building blocks
+
+- **Identity and records.** Connect people to their health records and service
+  cases, using official records where applicable.
+- **Consent, access, and audit history.** Control who can see information and
+  record how it was accessed or shared.
+- **Case follow-up.** Track appointments, reminders, and steps that require
+  action by a user, care team, or partner.
+- **Connections to other systems.** Exchange relevant information with
+  participating health providers, insurers, public programs, and payment partners.
+
+## Initial rollout and risks
+
+Benin and Burkina Faso are the planned first deployment countries.
+
+Early risks include intermittent connectivity, adoption by frontline teams,
+incorrect identity matching, and exposure of sensitive information on shared
+devices. Deployment also depends on reliable notifications, compatibility with
+existing systems, and the readiness of local partners.
 
 ## How the MVP fits
 
